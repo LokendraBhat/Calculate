@@ -11,32 +11,32 @@
 
 <body>
     <div id="boun">
-        <input type="text" id="bar" placeholder="000">
+        <p id="result"> </p>
 
-        <button class="num">C</button>
-        <button class="num">( )</button>
-        <button class="num">y<sup>x</sup></button>
-        <button class="num">/</button>
+        <button class="num" onclick="clear_sc()">C</button>
+        <button class="num" onclick="backspace()"><<</button>
+        <button class="num" onclick="display('**')">y<sup>x</sup></button>
+        <button class="num" onclick="display('/')">/</button>
         <br>
-        <button class="num">1</button>
-        <button class="num">2</button>
-        <button class="num">3</button>
-        <button class="num">*</button>
+        <button class="num" onclick="display('1')">1</button>
+        <button class="num" onclick="display('2')">2</button>
+        <button class="num" onclick="display('3')">3</button>
+        <button class="num" onclick="display('*')">*</button>
         <br>
-        <button class="num">4</button>
-        <button class="num">5</button>
-        <button class="num">6</button>
-        <button class="num">-</button>
+        <button class="num" onclick="display('4')">4</button>
+        <button class="num" onclick="display('5')">5</button>
+        <button class="num" onclick="display('6')">6</button>
+        <button class="num" onclick="display('-')">-</button>
         <br>
-        <button class="num">7</button>
-        <button class="num">8</button>
-        <button class="num">9</button>
-        <button class="num">+</button>
+        <button class="num" onclick="display('7')">7</button>
+        <button class="num" onclick="display('8')">8</button>
+        <button class="num" onclick="display('9')">9</button>
+        <button class="num" onclick="display('+')">+</button>
         <br>
-        <button class="num">%</button>
-        <button class="num">0</button>
-        <button class="num">.</button>
-        <button class="num" id="eq" onclick="result()">=</button>
+        <button class="num" onclick="display('%')">%</button>
+        <button class="num" onclick="display('0')">0</button>
+        <button class="num" onclick="display('.')">.</button>
+        <button class="num" id="eq" onclick="calculate()">=</button>
 
     </div>
 
