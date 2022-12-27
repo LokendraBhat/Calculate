@@ -1,0 +1,20 @@
+#boun{
+    background-color: wheat;
+    height: 525px;
+    width: 375px;
+    border: 3px solid black;
+    text-align: center;
+}
+p{
+    padding: 25px;
+    border:2px solid white;
+    text-align: center;
+}
+.num{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    text-decoration: solid black;
+}
+
